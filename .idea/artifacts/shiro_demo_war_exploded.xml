@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="shiro.demo:war exploded">
     <output-path>$PROJECT_DIR$/target/shiro.demo-0.0.2-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>shiro.demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -27,7 +34,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.1.1" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.21" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.25" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.18" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.7.1" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.11" />
